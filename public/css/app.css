@@ -2,6 +2,7 @@ body {
   width: 70%;
   margin: auto;
   background-color: #e5e5e5;
+  font-family: 'Roboto', sans-serif;
 }
 
 header {
@@ -18,9 +19,36 @@ header h1 {
 
 section {
   background-color: white;
-  padding: 10px;
+  padding: 20px;
 }
 
 section p {
   margin: 0;
+}
+
+section input {
+  padding: 8px;
+  border-radius: 5px;
+}
+
+section hr {
+  border: lightgrey solid 1px;
+}
+
+section button {
+  font-size: 15px;
+  color: white;
+  background-color: #4122ef;
+  border: none;
+  border-radius: 5px;
+  padding: 8px;
+}
+
+.groupeBouton {
+  text-align: right;
+}
+
+.tache {
+  background-color: lightgrey;
+  padding: 10px;
 }

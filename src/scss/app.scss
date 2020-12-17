@@ -2,6 +2,7 @@ body{
     width: 70%;
     margin: auto;
     background-color: rgb(229, 229, 229);
+    font-family: 'Roboto', sans-serif;
 }
 header{
     background-color: rgb(123, 198, 250);
@@ -16,8 +17,34 @@ header{
 
 section{
     background-color: white;
-    padding: 10px;
+    padding: 20px;
     p{
         margin: 0;
     }
+    input{
+        padding: 8px;
+        border-radius: 5px;
+    }
+    hr{
+        border: lightgrey solid 1px;
+    }
+    button{
+        font-size: 15px;
+        color: white;
+        background-color: rgb(65, 34, 239);
+        border: none;
+        border-radius: 5px;
+        padding: 8px;
+    }
+}
+.groupeBouton{
+    text-align: right;
+}
+#liste{
+
+}
+
+.tache{
+    background-color: lightgrey;
+    padding: 10px;
 }
