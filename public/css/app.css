@@ -1,0 +1,26 @@
+body {
+  width: 70%;
+  margin: auto;
+  background-color: #e5e5e5;
+}
+
+header {
+  background-color: #7bc6fa;
+  color: white;
+  margin: 20px auto;
+  padding: 20px;
+}
+
+header h1 {
+  font-size: 50px;
+  margin: 0;
+}
+
+section {
+  background-color: white;
+  padding: 10px;
+}
+
+section p {
+  margin: 0;
+}
