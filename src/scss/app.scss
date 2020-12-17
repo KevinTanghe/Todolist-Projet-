@@ -1,3 +1,8 @@
+$fa-font-path : "../../node_modules/@fortawesome/fontawesome-free/webfonts";
+@import  "../../node_modules/@fortawesome/fontawesome-free/scss/fontawesome.scss";
+@import  "../../node_modules/@fortawesome/fontawesome-free/scss/solid.scss";
+@import  "../../node_modules/@fortawesome/fontawesome-free/scss/brands.scss";
+@import  "../../node_modules/@fortawesome/fontawesome-free/scss/regular.scss";
 body{
     width: 70%;
     margin: auto;
@@ -28,23 +33,74 @@ section{
     hr{
         border: lightgrey solid 1px;
     }
-    button{
-        font-size: 15px;
-        color: white;
-        background-color: rgb(65, 34, 239);
-        border: none;
-        border-radius: 5px;
-        padding: 8px;
-    }
 }
+.buttonBleu{
+    font-size: 15px;
+    color: white;
+    background-color: rgb(65, 34, 239);
+    border: none;
+    border-radius: 5px;
+    padding: 8px;
+}
+
 .groupeBouton{
     text-align: right;
 }
-#liste{
 
-}
 
 .tache{
+    padding: 20px;
+}
+
+.d-flex{
+    display: flex;
+    justify-content: space-between;
     background-color: lightgrey;
-    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+}
+
+.fa-check-circle{
+    color: rgb(83, 181, 214);
+    font-size: 20px;
+    margin: 20px;
+    background-color: lightgrey;
+}
+
+.fa-edit{
+    color: rgb(192, 192, 26);
+    font-size: 20px;
+    margin: 20px;
+    background-color: lightgrey;
+}
+.fa-trash-alt{
+    color: rgb(214, 67, 67);
+    font-size: 20px;
+    margin: 20px;
+    background-color: lightgrey;
+}
+
+.icone{
+    display: flex;
+    align-items: center;
+    button{
+        border: none;
+        
+    }
+}
+
+.choix{
+    background-color: rgb(155, 48, 48)!important;
+    color: white;
+    padding: 15px;
+    margin: 10px;
+    border-radius: 45%;
+}
+
+#check{
+    background-color: rgb(33, 168, 33);
+    color: white;
+    button{
+        background-color: rgb(33, 168, 33);
+    }
 }
