@@ -101,7 +101,20 @@ bouton.addEventListener("click", function(){
         divTodo[1].addEventListener("click", function(){
             if (div.hasAttribute("id")) {
                 div.style.display = "none"
+            } else {
+                div.style.display = "flex"
             }
+        })
+
+        divTodo[2].addEventListener("click", function(){
+            if (div.hasAttribute("id")) {
+                div.style.display = "flex"
+            } else {
+                div.style.display = "none"
+            }
+        })
+        divTodo[3].addEventListener("click", function(){
+            div.style.display = "flex"
         })
     }
 })
